@@ -1,0 +1,97 @@
+
+
+*,*:before,*:after{}
+html{
+    overflow-y: scroll;
+}
+body{
+    background: cadetblue;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 5s ease;
+    &:hover
+}
+.form{
+    background: cadetblue;
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+}
+.tab-group{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: cadetblue;
+    color: #d90707;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: 7s ease;
+}
+.tab-content >div:last-child{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin:  0 0 40px;
+}
+label{
+    position: absolute;
+    transform: translate(6px);
+    left: 13px;
+    color: #2c0404;
+}
+input{
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid gold;
+    color: darkmagenta;
+    transition: border-color .25s ease, box-shadow;
+}
+.field-wrap{
+    position: relative;
+    margin-bottom: 40px;
+}
+.top-row{
+
+}
+>div{
+    float: left;
+    width: 50%;
+}
+button{
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.button-block{
+    display: block;
+    width: 100%;
+
+}
+.forgot{
+    margin-top: -20px;
+    text-align: center;
+
+}
